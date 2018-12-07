@@ -1,0 +1,1141 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587CD70E0D6A58D410AE8055 /* libPods-BTDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47269D55A9AF992C6DC4FC60 /* libPods-BTDK.a */; };
+		A21FC80521B5195B00BE24DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC80421B5195B00BE24DE /* ViewController.m */; };
+		A21FC80821B5195B00BE24DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21FC80621B5195B00BE24DE /* Main.storyboard */; };
+		A21FC80A21B5196000BE24DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21FC80921B5196000BE24DE /* Assets.xcassets */; };
+		A21FC80D21B5196000BE24DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21FC80B21B5196000BE24DE /* LaunchScreen.storyboard */; };
+		A21FC81021B5196000BE24DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC80F21B5196000BE24DE /* main.m */; };
+		A21FC81A21B5196000BE24DE /* BTDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC81921B5196000BE24DE /* BTDKTests.m */; };
+		A21FC82521B5196000BE24DE /* BTDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC82421B5196000BE24DE /* BTDKUITests.m */; };
+		A21FC84921B51A4400BE24DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC83521B51A4400BE24DE /* AppDelegate.m */; };
+		A21FC84A21B51A4400BE24DE /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC83821B51A4400BE24DE /* BaseNavigationController.m */; };
+		A21FC84B21B51A4400BE24DE /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC83A21B51A4400BE24DE /* BaseTabBarController.m */; };
+		A21FC84E21B51A4400BE24DE /* 3.5.png in Resources */ = {isa = PBXBuildFile; fileRef = A21FC84121B51A4400BE24DE /* 3.5.png */; };
+		A21FC84F21B51A4400BE24DE /* 4.0.png in Resources */ = {isa = PBXBuildFile; fileRef = A21FC84221B51A4400BE24DE /* 4.0.png */; };
+		A21FC85021B51A4400BE24DE /* 4.7.png in Resources */ = {isa = PBXBuildFile; fileRef = A21FC84321B51A4400BE24DE /* 4.7.png */; };
+		A21FC85121B51A4400BE24DE /* 5.5.png in Resources */ = {isa = PBXBuildFile; fileRef = A21FC84421B51A4400BE24DE /* 5.5.png */; };
+		A21FC85221B51A4400BE24DE /* 5.8.png in Resources */ = {isa = PBXBuildFile; fileRef = A21FC84521B51A4400BE24DE /* 5.8.png */; };
+		A21FC85321B51A4400BE24DE /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC84721B51A4400BE24DE /* LaunchViewController.m */; };
+		A21FC86121B51A5400BE24DE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC85E21B51A5400BE24DE /* HomeViewController.m */; };
+		A21FC87D21B51A6000BE24DE /* UIColor+StrColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC86521B51A6000BE24DE /* UIColor+StrColor.m */; };
+		A21FC87E21B51A6000BE24DE /* UITextField+TextAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC86721B51A6000BE24DE /* UITextField+TextAdd.m */; };
+		A21FC87F21B51A6000BE24DE /* UIView+HudStr.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC86921B51A6000BE24DE /* UIView+HudStr.m */; };
+		A21FC88021B51A6000BE24DE /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC87521B51A6000BE24DE /* ApiManager.m */; };
+		A21FC88121B51A6000BE24DE /* BTDKHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC87721B51A6000BE24DE /* BTDKHandle.m */; };
+		A21FC88221B51A6000BE24DE /* KeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC87A21B51A6000BE24DE /* KeyChainStore.m */; };
+		A21FC88321B51A6000BE24DE /* BTDKTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC87C21B51A6000BE24DE /* BTDKTool.m */; };
+		A21FC88A21B51A6D00BE24DE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC88721B51A6D00BE24DE /* LoginViewController.m */; };
+		A21FC89221B51B9F00BE24DE /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC88F21B51B9F00BE24DE /* MineViewController.m */; };
+		A21FC89C21B60B3200BE24DE /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC89B21B60B3200BE24DE /* RegisterViewController.m */; };
+		A21FC89F21B62E6400BE24DE /* QuickLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC89E21B62E6400BE24DE /* QuickLoginViewController.m */; };
+		A21FC8A221B6516D00BE24DE /* RetrievePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC8A121B6516D00BE24DE /* RetrievePasswordViewController.m */; };
+		A240694121B6692500B3C6B1 /* ResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A240694021B6692500B3C6B1 /* ResetPasswordViewController.m */; };
+		A2D2483321B67ACF0038BE30 /* BTDKSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D2483221B67ACF0038BE30 /* BTDKSlider.m */; };
+		A2D2487A21B770660038BE30 /* IdCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D2487921B770660038BE30 /* IdCardViewController.m */; };
+		A2D2487D21B7773B0038BE30 /* EmergencyContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D2487C21B7773B0038BE30 /* EmergencyContactVC.m */; };
+		A2D2488021B7791A0038BE30 /* SesameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D2487F21B7791A0038BE30 /* SesameViewController.m */; };
+		A2D2488321B7A6F30038BE30 /* UnallowedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D2488221B7A6F30038BE30 /* UnallowedView.m */; };
+		A2D2488621B7A7190038BE30 /* UnallowedAndMarketView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D2488521B7A7190038BE30 /* UnallowedAndMarketView.m */; };
+		A2D2488921B7AC630038BE30 /* ApplyForView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D2488821B7AC630038BE30 /* ApplyForView.m */; };
+		A2D248D021B8B1390038BE30 /* BTDKMarketCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D248CF21B8B1390038BE30 /* BTDKMarketCell.m */; };
+		A2D248D721B8F9520038BE30 /* RecommendedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D248D421B8F9520038BE30 /* RecommendedVC.m */; };
+		A2D248DE21B8FA180038BE30 /* HoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D248DB21B8FA180038BE30 /* HoleViewController.m */; };
+		A2D248E421B900960038BE30 /* MineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D248E321B900960038BE30 /* MineView.m */; };
+		A2D248E721B91BA50038BE30 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D248E621B91BA50038BE30 /* DetailViewController.m */; };
+		A2D248ED21BA13070038BE30 /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D248EC21BA13070038BE30 /* BaseWebViewController.m */; };
+		A2D248F021BA13850038BE30 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D248EF21BA13850038BE30 /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A21FC81621B5196000BE24DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A21FC7F521B5195B00BE24DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21FC7FC21B5195B00BE24DE;
+			remoteInfo = BTDK;
+		};
+		A21FC82121B5196000BE24DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A21FC7F521B5195B00BE24DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21FC7FC21B5195B00BE24DE;
+			remoteInfo = BTDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47269D55A9AF992C6DC4FC60 /* libPods-BTDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98545E8F225473CC35E81089 /* Pods-BTDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTDK/Pods-BTDK.debug.xcconfig"; sourceTree = "<group>"; };
+		A21FC7FD21B5195B00BE24DE /* BTDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21FC80321B5195B00BE24DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A21FC80421B5195B00BE24DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A21FC80721B5195B00BE24DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A21FC80921B5196000BE24DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A21FC80C21B5196000BE24DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A21FC80E21B5196000BE24DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21FC80F21B5196000BE24DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A21FC81521B5196000BE24DE /* BTDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21FC81921B5196000BE24DE /* BTDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTDKTests.m; sourceTree = "<group>"; };
+		A21FC81B21B5196000BE24DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21FC82021B5196000BE24DE /* BTDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21FC82421B5196000BE24DE /* BTDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTDKUITests.m; sourceTree = "<group>"; };
+		A21FC82621B5196000BE24DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21FC83421B51A4400BE24DE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A21FC83521B51A4400BE24DE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A21FC83721B51A4400BE24DE /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		A21FC83821B51A4400BE24DE /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		A21FC83921B51A4400BE24DE /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		A21FC83A21B51A4400BE24DE /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		A21FC84121B51A4400BE24DE /* 3.5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.5.png; sourceTree = "<group>"; };
+		A21FC84221B51A4400BE24DE /* 4.0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.0.png; sourceTree = "<group>"; };
+		A21FC84321B51A4400BE24DE /* 4.7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.7.png; sourceTree = "<group>"; };
+		A21FC84421B51A4400BE24DE /* 5.5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.5.png; sourceTree = "<group>"; };
+		A21FC84521B51A4400BE24DE /* 5.8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.8.png; sourceTree = "<group>"; };
+		A21FC84621B51A4400BE24DE /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		A21FC84721B51A4400BE24DE /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		A21FC85D21B51A5400BE24DE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A21FC85E21B51A5400BE24DE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A21FC86421B51A6000BE24DE /* UIColor+StrColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+StrColor.h"; sourceTree = "<group>"; };
+		A21FC86521B51A6000BE24DE /* UIColor+StrColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+StrColor.m"; sourceTree = "<group>"; };
+		A21FC86621B51A6000BE24DE /* UITextField+TextAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TextAdd.h"; sourceTree = "<group>"; };
+		A21FC86721B51A6000BE24DE /* UITextField+TextAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TextAdd.m"; sourceTree = "<group>"; };
+		A21FC86821B51A6000BE24DE /* UIView+HudStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HudStr.h"; sourceTree = "<group>"; };
+		A21FC86921B51A6000BE24DE /* UIView+HudStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HudStr.m"; sourceTree = "<group>"; };
+		A21FC86B21B51A6000BE24DE /* CatchDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchDefine.h; sourceTree = "<group>"; };
+		A21FC86C21B51A6000BE24DE /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		A21FC86D21B51A6000BE24DE /* DeviceDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDefine.h; sourceTree = "<group>"; };
+		A21FC86E21B51A6000BE24DE /* HtmlDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlDefine.h; sourceTree = "<group>"; };
+		A21FC86F21B51A6000BE24DE /* MethodDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodDefine.h; sourceTree = "<group>"; };
+		A21FC87021B51A6000BE24DE /* NotificationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationDefine.h; sourceTree = "<group>"; };
+		A21FC87121B51A6000BE24DE /* RequestDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestDefine.h; sourceTree = "<group>"; };
+		A21FC87221B51A6000BE24DE /* ThemeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeDefine.h; sourceTree = "<group>"; };
+		A21FC87421B51A6000BE24DE /* ApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiManager.h; sourceTree = "<group>"; };
+		A21FC87521B51A6000BE24DE /* ApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiManager.m; sourceTree = "<group>"; };
+		A21FC87621B51A6000BE24DE /* BTDKHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDKHandle.h; sourceTree = "<group>"; };
+		A21FC87721B51A6000BE24DE /* BTDKHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDKHandle.m; sourceTree = "<group>"; };
+		A21FC87921B51A6000BE24DE /* KeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainStore.h; sourceTree = "<group>"; };
+		A21FC87A21B51A6000BE24DE /* KeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainStore.m; sourceTree = "<group>"; };
+		A21FC87B21B51A6000BE24DE /* BTDKTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDKTool.h; sourceTree = "<group>"; };
+		A21FC87C21B51A6000BE24DE /* BTDKTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDKTool.m; sourceTree = "<group>"; };
+		A21FC88621B51A6D00BE24DE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A21FC88721B51A6D00BE24DE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A21FC88B21B51A7800BE24DE /* PrefixHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		A21FC88E21B51B9F00BE24DE /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		A21FC88F21B51B9F00BE24DE /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		A21FC89A21B60B3200BE24DE /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		A21FC89B21B60B3200BE24DE /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		A21FC89D21B62E6400BE24DE /* QuickLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickLoginViewController.h; sourceTree = "<group>"; };
+		A21FC89E21B62E6400BE24DE /* QuickLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickLoginViewController.m; sourceTree = "<group>"; };
+		A21FC8A021B6516D00BE24DE /* RetrievePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetrievePasswordViewController.h; sourceTree = "<group>"; };
+		A21FC8A121B6516D00BE24DE /* RetrievePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetrievePasswordViewController.m; sourceTree = "<group>"; };
+		A240693F21B6692500B3C6B1 /* ResetPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetPasswordViewController.h; sourceTree = "<group>"; };
+		A240694021B6692500B3C6B1 /* ResetPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordViewController.m; sourceTree = "<group>"; };
+		A2D2483121B67ACF0038BE30 /* BTDKSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTDKSlider.h; sourceTree = "<group>"; };
+		A2D2483221B67ACF0038BE30 /* BTDKSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTDKSlider.m; sourceTree = "<group>"; };
+		A2D2487821B770660038BE30 /* IdCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdCardViewController.h; sourceTree = "<group>"; };
+		A2D2487921B770660038BE30 /* IdCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdCardViewController.m; sourceTree = "<group>"; };
+		A2D2487B21B7773B0038BE30 /* EmergencyContactVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmergencyContactVC.h; sourceTree = "<group>"; };
+		A2D2487C21B7773B0038BE30 /* EmergencyContactVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmergencyContactVC.m; sourceTree = "<group>"; };
+		A2D2487E21B7791A0038BE30 /* SesameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SesameViewController.h; sourceTree = "<group>"; };
+		A2D2487F21B7791A0038BE30 /* SesameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SesameViewController.m; sourceTree = "<group>"; };
+		A2D2488121B7A6F30038BE30 /* UnallowedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnallowedView.h; sourceTree = "<group>"; };
+		A2D2488221B7A6F30038BE30 /* UnallowedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnallowedView.m; sourceTree = "<group>"; };
+		A2D2488421B7A7190038BE30 /* UnallowedAndMarketView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnallowedAndMarketView.h; sourceTree = "<group>"; };
+		A2D2488521B7A7190038BE30 /* UnallowedAndMarketView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnallowedAndMarketView.m; sourceTree = "<group>"; };
+		A2D2488721B7AC630038BE30 /* ApplyForView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplyForView.h; sourceTree = "<group>"; };
+		A2D2488821B7AC630038BE30 /* ApplyForView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplyForView.m; sourceTree = "<group>"; };
+		A2D248CE21B8B1390038BE30 /* BTDKMarketCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTDKMarketCell.h; sourceTree = "<group>"; };
+		A2D248CF21B8B1390038BE30 /* BTDKMarketCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTDKMarketCell.m; sourceTree = "<group>"; };
+		A2D248D321B8F9520038BE30 /* RecommendedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendedVC.h; sourceTree = "<group>"; };
+		A2D248D421B8F9520038BE30 /* RecommendedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendedVC.m; sourceTree = "<group>"; };
+		A2D248DA21B8FA180038BE30 /* HoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoleViewController.h; sourceTree = "<group>"; };
+		A2D248DB21B8FA180038BE30 /* HoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoleViewController.m; sourceTree = "<group>"; };
+		A2D248E221B900960038BE30 /* MineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineView.h; sourceTree = "<group>"; };
+		A2D248E321B900960038BE30 /* MineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineView.m; sourceTree = "<group>"; };
+		A2D248E521B91BA50038BE30 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A2D248E621B91BA50038BE30 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A2D248EB21BA12FF0038BE30 /* BaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
+		A2D248EC21BA13070038BE30 /* BaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
+		A2D248EE21BA137F0038BE30 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A2D248EF21BA13850038BE30 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		AD315B3CAD4D0E56B53DD4FA /* Pods-BTDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTDK/Pods-BTDK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A21FC7FA21B5195B00BE24DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587CD70E0D6A58D410AE8055 /* libPods-BTDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21FC81221B5196000BE24DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21FC81D21B5196000BE24DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0DE70D299103C6373A3D91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47269D55A9AF992C6DC4FC60 /* libPods-BTDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EA31D99775184B7450195B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98545E8F225473CC35E81089 /* Pods-BTDK.debug.xcconfig */,
+				AD315B3CAD4D0E56B53DD4FA /* Pods-BTDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A21FC7F421B5195B00BE24DE = {
+			isa = PBXGroup;
+			children = (
+				A21FC7FF21B5195B00BE24DE /* BTDK */,
+				A21FC81821B5196000BE24DE /* BTDKTests */,
+				A21FC82321B5196000BE24DE /* BTDKUITests */,
+				A21FC7FE21B5195B00BE24DE /* Products */,
+				8EA31D99775184B7450195B7 /* Pods */,
+				2B0DE70D299103C6373A3D91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A21FC7FE21B5195B00BE24DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC7FD21B5195B00BE24DE /* BTDK.app */,
+				A21FC81521B5196000BE24DE /* BTDKTests.xctest */,
+				A21FC82021B5196000BE24DE /* BTDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A21FC7FF21B5195B00BE24DE /* BTDK */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC86221B51A6000BE24DE /* Common */,
+				A21FC83221B51A4400BE24DE /* Base */,
+				A21FC88421B51A6D00BE24DE /* Login */,
+				A21FC85B21B51A5400BE24DE /* Home */,
+				A2D248D121B8F9520038BE30 /* Recommended */,
+				A2D248D821B8FA180038BE30 /* Hole */,
+				A21FC88C21B51B9F00BE24DE /* Mine */,
+				A21FC80321B5195B00BE24DE /* ViewController.h */,
+				A21FC80421B5195B00BE24DE /* ViewController.m */,
+				A21FC80621B5195B00BE24DE /* Main.storyboard */,
+				A21FC80921B5196000BE24DE /* Assets.xcassets */,
+				A21FC80B21B5196000BE24DE /* LaunchScreen.storyboard */,
+				A21FC80E21B5196000BE24DE /* Info.plist */,
+				A21FC80F21B5196000BE24DE /* main.m */,
+				A21FC88B21B51A7800BE24DE /* PrefixHeader.h */,
+			);
+			path = BTDK;
+			sourceTree = "<group>";
+		};
+		A21FC81821B5196000BE24DE /* BTDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC81921B5196000BE24DE /* BTDKTests.m */,
+				A21FC81B21B5196000BE24DE /* Info.plist */,
+			);
+			path = BTDKTests;
+			sourceTree = "<group>";
+		};
+		A21FC82321B5196000BE24DE /* BTDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC82421B5196000BE24DE /* BTDKUITests.m */,
+				A21FC82621B5196000BE24DE /* Info.plist */,
+			);
+			path = BTDKUITests;
+			sourceTree = "<group>";
+		};
+		A21FC83221B51A4400BE24DE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC83321B51A4400BE24DE /* AppDelegate */,
+				A21FC83621B51A4400BE24DE /* Controller */,
+				A21FC83F21B51A4400BE24DE /* PreLauch */,
+				A21FC84821B51A4400BE24DE /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A21FC83321B51A4400BE24DE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC83421B51A4400BE24DE /* AppDelegate.h */,
+				A21FC83521B51A4400BE24DE /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A21FC83621B51A4400BE24DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC83721B51A4400BE24DE /* BaseNavigationController.h */,
+				A21FC83821B51A4400BE24DE /* BaseNavigationController.m */,
+				A21FC83921B51A4400BE24DE /* BaseTabBarController.h */,
+				A21FC83A21B51A4400BE24DE /* BaseTabBarController.m */,
+				A2D248EE21BA137F0038BE30 /* BaseViewController.h */,
+				A2D248EF21BA13850038BE30 /* BaseViewController.m */,
+				A2D248EB21BA12FF0038BE30 /* BaseWebViewController.h */,
+				A2D248EC21BA13070038BE30 /* BaseWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A21FC83F21B51A4400BE24DE /* PreLauch */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC84021B51A4400BE24DE /* LauchImages */,
+				A21FC84621B51A4400BE24DE /* LaunchViewController.h */,
+				A21FC84721B51A4400BE24DE /* LaunchViewController.m */,
+			);
+			path = PreLauch;
+			sourceTree = "<group>";
+		};
+		A21FC84021B51A4400BE24DE /* LauchImages */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC84121B51A4400BE24DE /* 3.5.png */,
+				A21FC84221B51A4400BE24DE /* 4.0.png */,
+				A21FC84321B51A4400BE24DE /* 4.7.png */,
+				A21FC84421B51A4400BE24DE /* 5.5.png */,
+				A21FC84521B51A4400BE24DE /* 5.8.png */,
+			);
+			path = LauchImages;
+			sourceTree = "<group>";
+		};
+		A21FC84821B51A4400BE24DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A21FC85B21B51A5400BE24DE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC85C21B51A5400BE24DE /* Controller */,
+				A21FC85F21B51A5400BE24DE /* Model */,
+				A21FC86021B51A5400BE24DE /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A21FC85C21B51A5400BE24DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC85D21B51A5400BE24DE /* HomeViewController.h */,
+				A21FC85E21B51A5400BE24DE /* HomeViewController.m */,
+				A2D2487821B770660038BE30 /* IdCardViewController.h */,
+				A2D2487921B770660038BE30 /* IdCardViewController.m */,
+				A2D2487B21B7773B0038BE30 /* EmergencyContactVC.h */,
+				A2D2487C21B7773B0038BE30 /* EmergencyContactVC.m */,
+				A2D2487E21B7791A0038BE30 /* SesameViewController.h */,
+				A2D2487F21B7791A0038BE30 /* SesameViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A21FC85F21B51A5400BE24DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A21FC86021B51A5400BE24DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2D2483121B67ACF0038BE30 /* BTDKSlider.h */,
+				A2D2483221B67ACF0038BE30 /* BTDKSlider.m */,
+				A2D2488721B7AC630038BE30 /* ApplyForView.h */,
+				A2D2488821B7AC630038BE30 /* ApplyForView.m */,
+				A2D2488121B7A6F30038BE30 /* UnallowedView.h */,
+				A2D2488221B7A6F30038BE30 /* UnallowedView.m */,
+				A2D2488421B7A7190038BE30 /* UnallowedAndMarketView.h */,
+				A2D2488521B7A7190038BE30 /* UnallowedAndMarketView.m */,
+				A2D248CE21B8B1390038BE30 /* BTDKMarketCell.h */,
+				A2D248CF21B8B1390038BE30 /* BTDKMarketCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A21FC86221B51A6000BE24DE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC86321B51A6000BE24DE /* Category */,
+				A21FC86A21B51A6000BE24DE /* Define */,
+				A21FC87321B51A6000BE24DE /* ShareInstance */,
+				A21FC87821B51A6000BE24DE /* Tool */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A21FC86321B51A6000BE24DE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC86421B51A6000BE24DE /* UIColor+StrColor.h */,
+				A21FC86521B51A6000BE24DE /* UIColor+StrColor.m */,
+				A21FC86621B51A6000BE24DE /* UITextField+TextAdd.h */,
+				A21FC86721B51A6000BE24DE /* UITextField+TextAdd.m */,
+				A21FC86821B51A6000BE24DE /* UIView+HudStr.h */,
+				A21FC86921B51A6000BE24DE /* UIView+HudStr.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A21FC86A21B51A6000BE24DE /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC86B21B51A6000BE24DE /* CatchDefine.h */,
+				A21FC86C21B51A6000BE24DE /* CommonDefine.h */,
+				A21FC86D21B51A6000BE24DE /* DeviceDefine.h */,
+				A21FC86E21B51A6000BE24DE /* HtmlDefine.h */,
+				A21FC86F21B51A6000BE24DE /* MethodDefine.h */,
+				A21FC87021B51A6000BE24DE /* NotificationDefine.h */,
+				A21FC87121B51A6000BE24DE /* RequestDefine.h */,
+				A21FC87221B51A6000BE24DE /* ThemeDefine.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		A21FC87321B51A6000BE24DE /* ShareInstance */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC87421B51A6000BE24DE /* ApiManager.h */,
+				A21FC87521B51A6000BE24DE /* ApiManager.m */,
+				A21FC87621B51A6000BE24DE /* BTDKHandle.h */,
+				A21FC87721B51A6000BE24DE /* BTDKHandle.m */,
+			);
+			path = ShareInstance;
+			sourceTree = "<group>";
+		};
+		A21FC87821B51A6000BE24DE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC87921B51A6000BE24DE /* KeyChainStore.h */,
+				A21FC87A21B51A6000BE24DE /* KeyChainStore.m */,
+				A21FC87B21B51A6000BE24DE /* BTDKTool.h */,
+				A21FC87C21B51A6000BE24DE /* BTDKTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		A21FC88421B51A6D00BE24DE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC88521B51A6D00BE24DE /* Controller */,
+				A21FC88821B51A6D00BE24DE /* Model */,
+				A21FC88921B51A6D00BE24DE /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A21FC88521B51A6D00BE24DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC88621B51A6D00BE24DE /* LoginViewController.h */,
+				A21FC88721B51A6D00BE24DE /* LoginViewController.m */,
+				A21FC89A21B60B3200BE24DE /* RegisterViewController.h */,
+				A21FC89B21B60B3200BE24DE /* RegisterViewController.m */,
+				A21FC89D21B62E6400BE24DE /* QuickLoginViewController.h */,
+				A21FC89E21B62E6400BE24DE /* QuickLoginViewController.m */,
+				A21FC8A021B6516D00BE24DE /* RetrievePasswordViewController.h */,
+				A21FC8A121B6516D00BE24DE /* RetrievePasswordViewController.m */,
+				A240693F21B6692500B3C6B1 /* ResetPasswordViewController.h */,
+				A240694021B6692500B3C6B1 /* ResetPasswordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A21FC88821B51A6D00BE24DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A21FC88921B51A6D00BE24DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A21FC88C21B51B9F00BE24DE /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC88D21B51B9F00BE24DE /* Controller */,
+				A21FC89021B51B9F00BE24DE /* Model */,
+				A21FC89121B51B9F00BE24DE /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		A21FC88D21B51B9F00BE24DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A21FC88E21B51B9F00BE24DE /* MineViewController.h */,
+				A21FC88F21B51B9F00BE24DE /* MineViewController.m */,
+				A2D248E521B91BA50038BE30 /* DetailViewController.h */,
+				A2D248E621B91BA50038BE30 /* DetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A21FC89021B51B9F00BE24DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A21FC89121B51B9F00BE24DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2D248E221B900960038BE30 /* MineView.h */,
+				A2D248E321B900960038BE30 /* MineView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2D248D121B8F9520038BE30 /* Recommended */ = {
+			isa = PBXGroup;
+			children = (
+				A2D248D221B8F9520038BE30 /* Controller */,
+				A2D248D521B8F9520038BE30 /* Model */,
+				A2D248D621B8F9520038BE30 /* View */,
+			);
+			path = Recommended;
+			sourceTree = "<group>";
+		};
+		A2D248D221B8F9520038BE30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2D248D321B8F9520038BE30 /* RecommendedVC.h */,
+				A2D248D421B8F9520038BE30 /* RecommendedVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2D248D521B8F9520038BE30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2D248D621B8F9520038BE30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2D248D821B8FA180038BE30 /* Hole */ = {
+			isa = PBXGroup;
+			children = (
+				A2D248D921B8FA180038BE30 /* Controller */,
+				A2D248DC21B8FA180038BE30 /* Model */,
+				A2D248DD21B8FA180038BE30 /* View */,
+			);
+			path = Hole;
+			sourceTree = "<group>";
+		};
+		A2D248D921B8FA180038BE30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2D248DA21B8FA180038BE30 /* HoleViewController.h */,
+				A2D248DB21B8FA180038BE30 /* HoleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2D248DC21B8FA180038BE30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2D248DD21B8FA180038BE30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A21FC7FC21B5195B00BE24DE /* BTDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21FC82921B5196000BE24DE /* Build configuration list for PBXNativeTarget "BTDK" */;
+			buildPhases = (
+				67B6ABC65520DDC64DBD2FD7 /* [CP] Check Pods Manifest.lock */,
+				A21FC7F921B5195B00BE24DE /* Sources */,
+				A21FC7FA21B5195B00BE24DE /* Frameworks */,
+				A21FC7FB21B5195B00BE24DE /* Resources */,
+				40C3419414A9CD922BE68F59 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTDK;
+			productName = BTDK;
+			productReference = A21FC7FD21B5195B00BE24DE /* BTDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A21FC81421B5196000BE24DE /* BTDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21FC82C21B5196000BE24DE /* Build configuration list for PBXNativeTarget "BTDKTests" */;
+			buildPhases = (
+				A21FC81121B5196000BE24DE /* Sources */,
+				A21FC81221B5196000BE24DE /* Frameworks */,
+				A21FC81321B5196000BE24DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A21FC81721B5196000BE24DE /* PBXTargetDependency */,
+			);
+			name = BTDKTests;
+			productName = BTDKTests;
+			productReference = A21FC81521B5196000BE24DE /* BTDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A21FC81F21B5196000BE24DE /* BTDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21FC82F21B5196000BE24DE /* Build configuration list for PBXNativeTarget "BTDKUITests" */;
+			buildPhases = (
+				A21FC81C21B5196000BE24DE /* Sources */,
+				A21FC81D21B5196000BE24DE /* Frameworks */,
+				A21FC81E21B5196000BE24DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A21FC82221B5196000BE24DE /* PBXTargetDependency */,
+			);
+			name = BTDKUITests;
+			productName = BTDKUITests;
+			productReference = A21FC82021B5196000BE24DE /* BTDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A21FC7F521B5195B00BE24DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = xiaoning;
+				TargetAttributes = {
+					A21FC7FC21B5195B00BE24DE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A21FC81421B5196000BE24DE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A21FC7FC21B5195B00BE24DE;
+					};
+					A21FC81F21B5196000BE24DE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A21FC7FC21B5195B00BE24DE;
+					};
+				};
+			};
+			buildConfigurationList = A21FC7F821B5195B00BE24DE /* Build configuration list for PBXProject "BTDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A21FC7F421B5195B00BE24DE;
+			productRefGroup = A21FC7FE21B5195B00BE24DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A21FC7FC21B5195B00BE24DE /* BTDK */,
+				A21FC81421B5196000BE24DE /* BTDKTests */,
+				A21FC81F21B5196000BE24DE /* BTDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A21FC7FB21B5195B00BE24DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21FC84E21B51A4400BE24DE /* 3.5.png in Resources */,
+				A21FC80D21B5196000BE24DE /* LaunchScreen.storyboard in Resources */,
+				A21FC80A21B5196000BE24DE /* Assets.xcassets in Resources */,
+				A21FC85121B51A4400BE24DE /* 5.5.png in Resources */,
+				A21FC85021B51A4400BE24DE /* 4.7.png in Resources */,
+				A21FC85221B51A4400BE24DE /* 5.8.png in Resources */,
+				A21FC84F21B51A4400BE24DE /* 4.0.png in Resources */,
+				A21FC80821B5195B00BE24DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21FC81321B5196000BE24DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21FC81E21B5196000BE24DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40C3419414A9CD922BE68F59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BTDK/Pods-BTDK-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/KafkaRefresh/KafkaRefresh/Resource/Image.bundle/arrow48.png",
+				"${PODS_ROOT}/KafkaRefresh/KafkaRefresh/Resource/Image.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/arrow48.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Image.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTDK/Pods-BTDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67B6ABC65520DDC64DBD2FD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A21FC7F921B5195B00BE24DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21FC84921B51A4400BE24DE /* AppDelegate.m in Sources */,
+				A2D2488321B7A6F30038BE30 /* UnallowedView.m in Sources */,
+				A21FC88221B51A6000BE24DE /* KeyChainStore.m in Sources */,
+				A2D2488621B7A7190038BE30 /* UnallowedAndMarketView.m in Sources */,
+				A2D248D721B8F9520038BE30 /* RecommendedVC.m in Sources */,
+				A21FC8A221B6516D00BE24DE /* RetrievePasswordViewController.m in Sources */,
+				A2D2487D21B7773B0038BE30 /* EmergencyContactVC.m in Sources */,
+				A2D248F021BA13850038BE30 /* BaseViewController.m in Sources */,
+				A2D2488021B7791A0038BE30 /* SesameViewController.m in Sources */,
+				A2D2487A21B770660038BE30 /* IdCardViewController.m in Sources */,
+				A21FC89C21B60B3200BE24DE /* RegisterViewController.m in Sources */,
+				A21FC80521B5195B00BE24DE /* ViewController.m in Sources */,
+				A21FC85321B51A4400BE24DE /* LaunchViewController.m in Sources */,
+				A2D2488921B7AC630038BE30 /* ApplyForView.m in Sources */,
+				A21FC89221B51B9F00BE24DE /* MineViewController.m in Sources */,
+				A21FC88021B51A6000BE24DE /* ApiManager.m in Sources */,
+				A2D248DE21B8FA180038BE30 /* HoleViewController.m in Sources */,
+				A21FC87D21B51A6000BE24DE /* UIColor+StrColor.m in Sources */,
+				A21FC81021B5196000BE24DE /* main.m in Sources */,
+				A2D248E721B91BA50038BE30 /* DetailViewController.m in Sources */,
+				A240694121B6692500B3C6B1 /* ResetPasswordViewController.m in Sources */,
+				A2D248D021B8B1390038BE30 /* BTDKMarketCell.m in Sources */,
+				A2D2483321B67ACF0038BE30 /* BTDKSlider.m in Sources */,
+				A21FC88321B51A6000BE24DE /* BTDKTool.m in Sources */,
+				A21FC86121B51A5400BE24DE /* HomeViewController.m in Sources */,
+				A21FC89F21B62E6400BE24DE /* QuickLoginViewController.m in Sources */,
+				A21FC87E21B51A6000BE24DE /* UITextField+TextAdd.m in Sources */,
+				A21FC88121B51A6000BE24DE /* BTDKHandle.m in Sources */,
+				A21FC87F21B51A6000BE24DE /* UIView+HudStr.m in Sources */,
+				A21FC88A21B51A6D00BE24DE /* LoginViewController.m in Sources */,
+				A21FC84B21B51A4400BE24DE /* BaseTabBarController.m in Sources */,
+				A2D248ED21BA13070038BE30 /* BaseWebViewController.m in Sources */,
+				A21FC84A21B51A4400BE24DE /* BaseNavigationController.m in Sources */,
+				A2D248E421B900960038BE30 /* MineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21FC81121B5196000BE24DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21FC81A21B5196000BE24DE /* BTDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21FC81C21B5196000BE24DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21FC82521B5196000BE24DE /* BTDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A21FC81721B5196000BE24DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A21FC7FC21B5195B00BE24DE /* BTDK */;
+			targetProxy = A21FC81621B5196000BE24DE /* PBXContainerItemProxy */;
+		};
+		A21FC82221B5196000BE24DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A21FC7FC21B5195B00BE24DE /* BTDK */;
+			targetProxy = A21FC82121B5196000BE24DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A21FC80621B5195B00BE24DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21FC80721B5195B00BE24DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A21FC80B21B5196000BE24DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21FC80C21B5196000BE24DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A21FC82721B5196000BE24DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A21FC82821B5196000BE24DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A21FC82A21B5196000BE24DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98545E8F225473CC35E81089 /* Pods-BTDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MV2AQU86SG;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BTDK/PrefixHeader.h";
+				INFOPLIST_FILE = BTDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoning.BTDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A21FC82B21B5196000BE24DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD315B3CAD4D0E56B53DD4FA /* Pods-BTDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MV2AQU86SG;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BTDK/PrefixHeader.h";
+				INFOPLIST_FILE = BTDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoning.BTDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A21FC82D21B5196000BE24DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MV2AQU86SG;
+				INFOPLIST_FILE = BTDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoning.BTDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTDK.app/BTDK";
+			};
+			name = Debug;
+		};
+		A21FC82E21B5196000BE24DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MV2AQU86SG;
+				INFOPLIST_FILE = BTDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoning.BTDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTDK.app/BTDK";
+			};
+			name = Release;
+		};
+		A21FC83021B5196000BE24DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MV2AQU86SG;
+				INFOPLIST_FILE = BTDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoning.BTDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BTDK;
+			};
+			name = Debug;
+		};
+		A21FC83121B5196000BE24DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MV2AQU86SG;
+				INFOPLIST_FILE = BTDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoning.BTDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BTDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A21FC7F821B5195B00BE24DE /* Build configuration list for PBXProject "BTDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21FC82721B5196000BE24DE /* Debug */,
+				A21FC82821B5196000BE24DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21FC82921B5196000BE24DE /* Build configuration list for PBXNativeTarget "BTDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21FC82A21B5196000BE24DE /* Debug */,
+				A21FC82B21B5196000BE24DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21FC82C21B5196000BE24DE /* Build configuration list for PBXNativeTarget "BTDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21FC82D21B5196000BE24DE /* Debug */,
+				A21FC82E21B5196000BE24DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21FC82F21B5196000BE24DE /* Build configuration list for PBXNativeTarget "BTDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21FC83021B5196000BE24DE /* Debug */,
+				A21FC83121B5196000BE24DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A21FC7F521B5195B00BE24DE /* Project object */;
+}
